@@ -1,8 +1,8 @@
-:tropical_drink # Bar-keeper-2.0 :tropical_drink
+:tropical_drink: # Bar-keeper-2.0 :tropical_drink:
 
 Bar keeper is a MERN stack app featuring redux and redux toolkit. Users can create, store, and edit bar recipes.
 
-![landingPage](/client/src/assets/images/landing.png)
+![landingPage](/client/src/assets/images/landing.jpg)
 
 # Description
 
@@ -28,7 +28,7 @@ Bar keeper has clickable options to display data in rows or grid pattern. `colum
 
 ![gridDisplay](/client/src/assets/images/gridDisplay.jpg)
 
-![rowDisplay](/client/src/assets/images/rowDisplay.jpg)
+![rowDisplay](/client/src/assets/images/rowsDisplay.jpg)
 
 ## search bar
 
@@ -49,7 +49,7 @@ to [recipeController](/controllers/recipesController.js). The data recieved from
 - clone git repository
 - copy the following url open up your terminal and execute following command
 
-https://github.com/anthonyss09/Bar-keeper-2.0.git
+https://github.com/anthonyss09/BarKeeper-2.0.git
 
 `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
 
