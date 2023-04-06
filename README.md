@@ -18,7 +18,7 @@ The object data modelling library Mongoose is used to create model structures an
 ## creating & editing recipes
 
 `useCreateRecipeMutation` is an endpoint in [apiSlice](/client/src/features/api/apiSlice.js). `useCreateRecipeMutation` sends an update to server thanks the query addon from redux toolkit.
-Query supports data fetching and data caching which bar keeper takes advantage by invalidating tags and updating data on the fly.
+Query supports data fetching and data caching which Bar keeper takes advantage of by invalidating tags and updating data on the fly.
 
 ![createRecipe](/client/src/assets/images/createForm.png)
 
