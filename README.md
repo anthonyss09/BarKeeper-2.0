@@ -1,4 +1,4 @@
-:tropical_drink: # Bar-keeper-2.0 :tropical_drink:
+## :tropical_drink: Bar-keeper-2.0 :tropical_drink:
 
 Bar keeper is a MERN stack app featuring redux and redux toolkit. Users can create, store, and edit bar recipes.
 
