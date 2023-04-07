@@ -2,12 +2,17 @@ import Wrapper from "../../assets/wrappers/RecipeOptions";
 import { useDispatch } from "react-redux";
 import { useDeleteRecipeMutation } from "../api/apiSlice";
 
-export default function RecipeOptions({ recipeId, columnDisplay }) {
+export default function RecipeOptions({
+  recipeId,
+  columnDisplay,
+  showOptions,
+}) {
   const dispatch = useDispatch();
   const [deleteRecipe] = useDeleteRecipeMutation();
 
   const handleClick = () => {
     dispatch(deleteRecipe({ recipeId }));
+    showOptions();
   };
   return (
     <Wrapper>

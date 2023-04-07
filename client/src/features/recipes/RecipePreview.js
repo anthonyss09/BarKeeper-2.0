@@ -83,7 +83,11 @@ export default function RecipePreview({
         {showOptions && (
           <div className="options-container">
             {" "}
-            <RecipeOptions recipeId={id} columnDisplay={columnDisplay} />
+            <RecipeOptions
+              recipeId={id}
+              columnDisplay={columnDisplay}
+              showOptions={handleClick}
+            />
           </div>
         )}
       </aside>
