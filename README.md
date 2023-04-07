@@ -26,9 +26,9 @@ Query supports data fetching and data caching which Bar keeper takes advantage o
 
 Bar keeper has clickable options to display data in rows or grid pattern. `columnDisplay` is an initial state value in [recipeSlice](/client/src/features/recipes/recipeSlice.js). `columnDisplay` is a boolean value passed to componenets with `useSelector` and is set using the reducer `setColumnDisplay`. `columnDisplay` is the condition used to set class names of elements in effect applying grid or row display style rules.
 
-![gridDisplay](/client/src/assets/images/gridDisplay.jpg)
+![gridDisplay](/client/src/assets/images/gridDisplay.png)
 
-![rowDisplay](/client/src/assets/images/rowsDisplay.jpg)
+![rowDisplay](/client/src/assets/images/rowsDisplay.png)
 
 ## search bar
 
