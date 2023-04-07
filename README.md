@@ -11,7 +11,7 @@ Bar keeper's front end is written with React and state is managed with redux and
 Bar keeper's backend api server is written on nodeJs with express. Routes are created with express.router and controller functions are passed into routes in Routes folder.
 The object data modelling library Mongoose is used to create model structures and connect with mongo data base.
 
-![bigSideBar](/client/src/assets/images/bigSideBar.jpg)
+![bigSideBar](/client/src/assets/images/bigSideBar.png)
 
 # Features
 
